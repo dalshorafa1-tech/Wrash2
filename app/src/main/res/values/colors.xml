@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#2E7D32</color>
+
+    <!-- Semantic Colors -->
+    <color name="income_color">#2E7D32</color>
+    <color name="expense_color">#E53E3E</color>
+    <color name="income_container">#E8F5E9</color>
+    <color name="expense_container">#FFEBEE</color>
+</resources>

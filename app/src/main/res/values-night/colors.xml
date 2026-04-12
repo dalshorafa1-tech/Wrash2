@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Semantic Colors for Dark Mode -->
+    <color name="income_color">#81C784</color>
+    <color name="expense_color">#F87171</color>
+    <color name="income_container">#1B5E20</color>
+    <color name="expense_container">#7F1D1D</color>
+</resources>

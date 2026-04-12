@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">مصاريفي</string>
+
+    <!-- Transaction Details -->
+    <string name="transaction_details">تفاصيل المعاملة</string>
+    <string name="amount_label">المبلغ</string>
+    <string name="type_label">النوع</string>
+    <string name="category_label">التصنيف</string>
+    <string name="date_time_label">التاريخ والوقت</string>
+    <string name="note_label">ملاحظة</string>
+    <string name="no_notes">لا توجد ملاحظات إضافية لهذه العملية.</string>
+    <string name="edit">تعديل</string>
+    <string name="delete">حذف</string>
+    <string name="income">دخل</string>
+    <string name="expense">مصروفات</string>
+    <string name="income_label">إيداع / دخل</string>
+    <string name="expense_label">سحب / مصروفات</string>
+    <string name="delete_confirmation_title">تأكيد الحذف</string>
+    <string name="delete_confirmation_msg">هل أنت متأكد أنك تريد حذف هذه العملية؟</string>
+    <string name="delete_success">تم الحذف بنجاح</string>
+    <string name="load_error">خطأ في تحميل البيانات</string>
+
+    <!-- Home Screen -->
+    <string name="welcome">مرحباً بك،</string>
+    <string name="user_name_placeholder">مستخدم مصاريفي 👋</string>
+    <string name="period_all">الفترة: الكل</string>
+    <string name="total_balance">إجمالي الرصيد المتاح</string>
+    <string name="balance_tip">مراقبة مستمرة لمصروفاتك</string>
+    <string name="expense_analysis">تحليل المصاريف</string>
+    <string name="details">التفاصيل</string>
+    <string name="recent_transactions">العمليات الأخيرة</string>
+    <string name="view_all">عرض الكل</string>
+    <string name="budget_tip">خطط لمصاريفك! حدد ميزانيتك الشهرية الآن.</string>
+
+    <!-- Add/Edit Transaction -->
+    <string name="add_transaction_title">إضافة معاملة</string>
+    <string name="edit_transaction_title">تعديل معاملة</string>
+    <string name="enter_amount">أدخل المبلغ</string>
+    <string name="add_note_hint">أضف ملاحظة...</string>
+    <string name="save_transaction">حفظ المعاملة</string>
+    <string name="update_transaction">تعديل</string>
+    <string name="select_category_hint">اختر التصنيف</string>
+    <string name="create_new_category">+ قم بإنشاء تصنيف جديد</string>
+    <string name="invalid_amount_error">يرجى إدخال مبلغ صحيح أكبر من صفر</string>
+    <string name="select_category_error">يرجى اختيار فئة صحيحة</string>
+
+    <!-- Budgets -->
+    <string name="budget_management_title">إدارة الميزانية</string>
+    <string name="remaining_total_budget">الميزانية الكلية المتبقية</string>
+    <string name="spent_of_format">تم صرف %1$s من %2$s $</string>
+    <string name="budget_format">الميزانية: %s $</string>
+    <string name="budget_over_warning">⚠️ تنبيه: لقد تجاوزت حد الميزانية المسموح به لهذا الشهر!</string>
+    <string name="category_budgets">ميزانيات الفئات</string>
+    <string name="customize">+ تخصيص</string>
+    <string name="not_set_yet">لم تحدد بعد</string>
+    <string name="spent_so_far">تم صرف: %s $</string>
+    <string name="remaining_label">المتبقي: %s $</string>
+    <string name="over_limit_label">التجاوز: %s $</string>
+    <string name="set_budget_option_title">ماذا تريد أن تخصص؟</string>
+    <string name="monthly_total_budget">ميزانية كلية للشهر</string>
+    <string name="category_specific_budget">ميزانية لفئة محددة</string>
+    <string name="select_category">اختر الفئة</string>
+    <string name="enter_amount_hint">أدخل المبلغ</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="set_total_budget_first">يرجى تحديد ميزانية كلية للشهر أولاً</string>
+    <string name="budget_exceed_total_error">خطأ: مجموع ميزانيات الفئات سيتجاوز الميزانية الكلية.</string>
+    <string name="total_less_than_categories_error">الميزانية الكلية لا يمكن أن تكون أقل من مجموع ميزانيات الفئات.</string>
+
+    <!-- Reports -->
+    <string name="reports_title">تقارير المصاريف</string>
+    <string name="overview">نظرة عامة</string>
+    <string name="select_date">اختر التاريخ</string>
+    <string name="category_analysis">تحليل الفئات</string>
+    <string name="detailed_transactions">العمليات التفصيلية</string>
+
+    <!-- Categories -->
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="active_user">مستخدم نشط</string>
+    <string name="preferences">التفضيلات</string>
+    <string name="dark_mode">الوضع الداكن</string>
+    <string name="language">اللغة</string>
+    <string name="currency">العملة</string>
+    <string name="week_start">بداية الأسبوع</string>
+    <string name="data_security">البيانات والأمان</string>
+    <string name="backup_restore">النسخ الاحتياطي والاستعادة</string>
+    <string name="export_reports">تصدير التقارير (PDF/Excel)</string>
+    <string name="reset_all_data">حذف كافة البيانات</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="reset_confirmation_title">حذف كل شيء؟</string>
+    <string name="reset_confirmation_msg">سيتم حذف كافة عملياتك وميزانياتك نهائياً. لا يمكن التراجع عن هذا الإجراء.</string>
+
+    <!-- Backup -->
+    <string name="protect_data_title">حماية بياناتك</string>
+    <string name="backup_desc">قم بإنشاء نسخة احتياطية من جميع معاملاتك وإعداداتك لاستعادتها في أي وقت أو عند تغيير الهاتف.</string>
+    <string name="backup_now">إنشاء نسخة احتياطية الآن</string>
+    <string name="restore_previous">استعادة نسخة سابقة</string>
+
+    <!-- Transaction List -->
+    <string name="transaction_log">قائمة التحويلات</string>
+    <string name="search_hint">ابحث عن عملية فئة ... .</string>
+    <string name="all">الكل </string>
+    <string name="newest_first">الاحدث</string>
+    <string name="oldest">الاقدم</string>
+    <string name="amount_max">الاعلى مبلغا</string>
+    <string name="amount_min">الاقل مبلغا</string>
+    <string name="no_results">لا توجد نتائج مطابقة</string>
+    <string name="no_results_desc">حاول اببحث باستخدام كلمات مختلفة او طريقة اخرى </string>
+    <!-- Auth -->
+    <string name="login_welcome">مرحبا في  تطبيق مصاريفي </string>
+    <string name="login_subtitle">سجل الدخول </string>
+    <string name="email">الايميل </string>
+    <string name="password">كلمة المرور </string>
+    <string name="confirm_password">تاكيد كلمة المرور</string>
+    <string name="forgot_password">نسيت كلمة المرو ؟</string>
+    <string name="login_btn">تسجيل الدخول </string>
+    <string name="no_account">ليس لديك حساب؟</string>
+    <string name="signup_link">انشاء حساب </string>
+    <string name="signup_welcome">انشاء حساب جديد </string>
+    <string name="signup_subtitle"> ابدات رحلتك  المالية الان</string>
+    <string name="signup_btn">تسجيل االدخول </string>
+    <string name="already_have_account">لديك حساب ؟</string>
+    <string name="fill_all_fields_error">يرجى ملء جميع الحقول </string>
+    <string name="password_mismatch_error"> كلمة المرور غير مطابقة </string>
+    <string name="login_success"> تتم تسجيل الدخول بنجاح</string>
+    <string name="signup_success">تم انشاء حساب بنجاح</string>
+    <string name="invalid_login_error"> الايميل خاطى او ملمة المرور </string>
+    <string name="email_exists_error">هذا الايميل موجود بالفعل </string>
+
+    <string name="export_title"> تصدير  &amp; مشاركة </string>
+    <string name="time_period">الفترة المطلوبة </string>
+    <string name="select_period">اختر الفترة المطلوبة </string>
+    <string name="selected_period_format">الفترة المختارة : %s</string>
+    <string name="file_format">تنسيق الملف </string>
+    <string name="generate_share">انشاء تقرير&amp; مشاركة </string>
+    <string name="all_time">الكل </string>
+    <string name="no_data_error">لا نتائج للفترة الحالية </string>
+    <string name="file_creation_error">فشل انشاء الملف </string>
+    <string name="pdf_report_title">تقاري ر العمليات </string>
+    <string name="date">التاريخ</string>
+    <string name="title">العنوان </string>
+    <string name="share_via">مشاركة عن طريق </string>
+
+    <string name="skip">تخطي </string>
+    <string name="next">التالي</string>
+    <string name="total_category_amount">المبلغ الكلي </string>
+    <string name="transactions_label">العملية </string>
+    <!-- Categories (إدارة التصنيفات) -->
+    <string name="categories_title">التصنيفات</string>
+    <string name="manage_categories_desc">إدارة فئات مصاريفك ودخلك</string>
+    <string name="add_category">إضافة فئة جديدة</string>
+    <string name="edit_category">تعديل التصنيف</string>
+    <string name="delete_category">حذف التصنيف</string>
+    <string name="category_name">اسم التصنيف</string>
+    <string name="category_type">نوع التصنيف</string>
+    <string name="exists_error">هذا الاسم موجود مسبقاً!</string>
+    <string name="add_success">تمت الإضافة بنجاح</string>
+    <string name="edit_success">تم التعديل بنجاح</string>
+    <string name="delete_cat_confirm">هل أنت متأكد من حذف تصنيف %s؟</string>
+    <string name="cant_delete_msg">هذا التصنيف مرتبط بـ %d عمليات. يرجى حذف العمليات أو تغيير تصنيفها أولاً.</string>
+    <string name="category_icon">أيقونة التصنيف</string>
+    <string name="no_categories_yet">لا توجد تصنيفات مضافة بعد</string>
+    <string name="enter_category_name">أدخل اسم الفئة</string>
+
+
+</resources>
